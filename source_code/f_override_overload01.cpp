@@ -18,7 +18,7 @@ public:
 
     // function overloading
     using Animal::sing;     // compile error without this code
-                            //void sing() { Animal::sing(); } // <- alternately
+                            // void sing() { Animal::sing(); } // <- alternately
     void sing(int a) { for (int i = 0; i < a; i++) cout << "The Bird sings\n"; }
 };
 
