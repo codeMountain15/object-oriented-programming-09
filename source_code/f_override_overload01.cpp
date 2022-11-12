@@ -23,7 +23,6 @@ public:
 };
 
 
-
 int main() {
 
     Bird parrot1;
@@ -31,7 +30,6 @@ int main() {
     parrot1.speak();
     parrot1.sing(3);
     parrot1.sing();
-
 
     return 0;
 }
