@@ -20,11 +20,16 @@ public:
 
 int main()
 {
-	Subject s1("Object Oriented Programming", 1, 2022); // Constructor
+	// Constructor
+	Subject s1("Object Oriented Programming", 1, 2022);
+	
+	// Default copy constructor
 	Subject s2 = s1; // Subject s2(s1);
 
-	cout << s1.get_title() << " " << s1.get_grade() << " " << s1.get_year() << endl;
-	cout << s2.get_title() << " " << s2.get_grade() << " " << s2.get_year() << endl;
+	cout << s1.get_title() << " " << s1.get_grade() 
+		<< " " << s1.get_year() << endl;
+	cout << s2.get_title() << " " << s2.get_grade() 
+		<< " " << s2.get_year() << endl;
 
 	return 0;
 }
