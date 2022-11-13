@@ -10,11 +10,6 @@ int main()
 {
     int input;
 
-    	cout << "short int: "
-		<< int(numeric_limits<short int>::max())
-		<< '\n';
-
-
     try
     {
         cout << "How many push-ups can you do?\n";
