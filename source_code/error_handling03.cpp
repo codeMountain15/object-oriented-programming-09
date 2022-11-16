@@ -23,8 +23,7 @@ int main()
     catch (invalid_argument& inpt)
     {
         cerr << inpt.what() << endl;
-        //return -1;
     }
 
-
+ return 0;
 }
