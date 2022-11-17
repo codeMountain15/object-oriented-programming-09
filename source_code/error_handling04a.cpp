@@ -1,5 +1,5 @@
 // error_handling04a.cpp
-// throw exception from 
+// throw exception from function
 
 #include <iostream>
 #include <limits> // for function numeric_limits<T>::max()
