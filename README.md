@@ -1,11 +1,8 @@
 # Εισαγωγή στον Αντικειμενοστραφή Προγραμματισμό
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Πολυμορφισμός
+- [ ] Διαχείριση σφαλμάτων
 
-
-...under construction!
 
 ## Πηγές
 * [cgi.di.uoa.gr/~izambo/oop.html](https://cgi.di.uoa.gr/~izambo/oop.html)
