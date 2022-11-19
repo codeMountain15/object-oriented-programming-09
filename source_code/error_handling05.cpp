@@ -38,7 +38,7 @@ int main() {
 
     catch (const invalid_argument& expt) { cout << expt.what() << endl; }
 
-    catch (...) { cout << "Got something else!\n"; }
+    //catch (...) { cout << "Got something else!\n"; }
 
     cout << "The exception was handled successfully!\n";
 
